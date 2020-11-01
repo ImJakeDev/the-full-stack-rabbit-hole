@@ -11,7 +11,7 @@ module.exports = {
   // social
   heading: 'The Full Stack Rabbit Hole',
   subHeading:
-    "Full Stack Software Engineering can be a complexly bizarre or difficult state and situation. That is where The Full Stack Rabbit Hole new letter comes into play. The Full Stack Rabbit Hole is a curated email newsletter that adventures through the wild realms of full stack software engineering new technologies and builds a clear, informative, and fun path to the wonderful world of up and coming tech.",
+    "Full Stack Software Engineering can be a complexly bizarre or difficult state and situation. That is where The Full Stack Rabbit Hole newsletter comes into play. The Full Stack Rabbit Hole is a curated email newsletter that adventures through the wild realms of full stack software engineering new technologies and builds a clear, informative, and fun path to the wonderful world of up and coming tech.",
   socialLinks: [
     {
       icon: 'fa-github',
