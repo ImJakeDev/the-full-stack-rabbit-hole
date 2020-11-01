@@ -1,37 +1,37 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Eventually', // <title>
-  manifestName: 'Eventually',
+  siteTitle: 'The Full Stack Rabbit Hole', // <title>
+  manifestName: 'The Full Stack Rabbit Hole',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-eventually/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/the-full-stack-rabbit-hole/`, // This path is subpath of your hosting https://domain/portfolio
   // social
-  heading: 'Eventually',
+  heading: 'The Full Stack Rabbit Hole',
   subHeading:
-    "A simple template for telling the world when you'll launch your next big thing.",
+    "Full Stack Software Engineering can be a complexly bizarre or difficult state and situation. That is where The Full Stack Rabbit Hole new letter comes into play. The Full Stack Rabbit Hole is a curated email newsletter that adventures through the wild realms of full stack software engineering new technologies and builds a clear, informative, and fun path to the wonderful world of up and coming tech.",
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: '',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: '',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: '',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: '',
     },
   ],
 };
