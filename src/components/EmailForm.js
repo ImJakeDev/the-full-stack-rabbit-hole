@@ -19,7 +19,7 @@ export class EmailForm extends Component {
   render() {
     const { message } = this.state;
     return (
-      <form id="signup-form" onSubmit={this.onSubmit} method="post" action="#" name="email subscription" netlify>
+      <form id="signup-form" onSubmit={this.onSubmit} method="post" action="#" name="email-subscription" netlify>
         <input
           type="email"
           name="email"
