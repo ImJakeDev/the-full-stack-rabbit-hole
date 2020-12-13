@@ -3,13 +3,8 @@ import React, { Component } from 'react';
 export class EmailForm extends Component {
   constructor() {
     super();
-    this.state = { message: '', value: '' };
+    this.state = { message: '' };
     this.onSubmit = this.onSubmit.bind(this);
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(e) {
-    this.setState({value: e.target.value});
   }
 
   onSubmit(e) {
@@ -30,8 +25,6 @@ export class EmailForm extends Component {
           name="email"
           id="email"
           placeholder="Email Address"
-          value={this.state.value}
-          onChange={this.handleChange}
         />
         <input type="submit" value="Sign Up" />
         <span className={`${message ? 'visible success' : ''} message`}>
